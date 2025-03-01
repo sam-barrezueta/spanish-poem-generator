@@ -33,7 +33,7 @@ form {
     border-radius: 10px;
     border: 1px solid #9476ff;
     line-height: 20px;
-    color: #CEBEF9;
+    color: #493D9E;
 }
 
 .submit-button {
@@ -53,7 +53,7 @@ form {
     padding: 10px;
     border-left: 3px solid #CEBEF9;
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.05);
 }
 

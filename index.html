@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Spanish Poem Generator</title>
     <link rel="stylesheet" href="src/style.css">
 </head>
@@ -13,17 +14,12 @@
         </Header>
 
         <main>
-            <form>
+            <form id="poem-generator-form">
                 <input type="text" placeholder="Enter the topic of your poem..." autofocus required autocomplete="off" class="instructions"/>
                 <input type="submit" class="submit-button"/>
                 <br>
             </form>
-            <div class="poem">
-                <p>This is where the poem goes
-                    <br>
-                    And this is where the second line of the poem goes
-                </p>
-            </div>
+            <div class="poem" id="poem"></div>
         </main>
         
 
